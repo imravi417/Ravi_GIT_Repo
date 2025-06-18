@@ -26,12 +26,23 @@ GIT steps to set up and Commands:
   git diff commit_name1 commit_name2
 
 8.To see previous version content:
-  git show commit_name:file_name
+  git show commit_name:file_path
 
 9.To go back to older version
-  git checkout commit_name -- file_name(for one file)  OR git checkout commit_name -- *(for all file)
+  git checkout commit_name -- file_path(for one file)  OR git checkout commit_name -- *(for all file)
 
 10.To go back to updated version:
    git checkout master -- *
   
+11.To undo changes before adding to git repository:
+   git restore <File_path> OR .
+   git status
+
+12.To undo reverse file from staging step(after accidental add)
+   git restore --staged <file_path> OR .
+   git status
+
+13.To undo the commit:
+   git reset --soft HEAD^ (uncommit but keep the changes)
+   git reset --hard HEAD^ (uncommit and discard the changes)
 
