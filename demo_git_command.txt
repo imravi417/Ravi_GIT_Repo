@@ -1,0 +1,37 @@
+GIT steps to set up and Commands:
+1.Make a git repository
+
+2.Configure user name and email
+  git config --global.user.name " "
+  git config --global.user.email " "
+  git config --list
+
+3.Intiallize git 
+  git init
+  ls -a
+
+4.Insert files in this repository so that they can be under survillence of GIT
+  git status
+
+5.To add file in git repository
+  git add
+  git status
+ 
+6.To commit file 
+  git commit -m "message that can be seen in log after the commit"
+  git status
+  git log
+
+7.To check the difference between 2 versions:
+  git diff commit_name1 commit_name2
+
+8.To see previous version content:
+  git show commit_name:file_name
+
+9.To go back to older version
+  git checkout commit_name -- file_name(for one file)  OR git checkout commit_name -- *(for all file)
+
+10.To go back to updated version:
+   git checkout master -- *
+  
+
