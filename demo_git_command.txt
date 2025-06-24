@@ -66,3 +66,5 @@ GIT steps to set up and Commands:
    changes in new branch cannot be seen in main branch
    to merge changes of new branch to main branch -- git merge <branch_name>
 
+19.To directly push on github from other branch:
+   git push origin <branch_name>
