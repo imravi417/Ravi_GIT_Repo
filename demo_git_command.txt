@@ -54,4 +54,15 @@ GIT steps to set up and Commands:
    git push
 
 16.To pull changes from github to local:
-   git push
+   git pull
+
+17.To clone the repository in other system:
+   git clone <repo URL>
+   all the logs and version will be cloned to other system
+
+18.Branching and Merging
+   to make a branch -- git branch <branch_name>
+   to switch to new branch -- git checkout <branch_name>
+   changes in new branch cannot be seen in main branch
+   to merge changes of new branch to main branch -- git merge <branch_name>
+
