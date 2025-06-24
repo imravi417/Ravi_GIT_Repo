@@ -46,3 +46,5 @@ GIT steps to set up and Commands:
    git reset --soft HEAD^ (uncommit but keep the changes)
    git reset --hard HEAD^ (uncommit and discard the changes)
 
+14. Setup github:
+    run three commands in local git from github 
