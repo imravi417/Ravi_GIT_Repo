@@ -75,3 +75,11 @@ GIT steps to set up and Commands:
 21.gitignore:
    To restrict some files from pushing to github
    make file .gitignore and name all the files in it which needs to be ignored
+
+22.To clean untracked file from GIT repository:
+   git clean -n
+
+23.To tag any commit:
+   git tag -- to check all the tag
+   git tag -a <Tag_name> commit no. -m "message"
+   git push --tag 
