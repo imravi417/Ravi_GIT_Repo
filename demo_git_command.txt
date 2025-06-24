@@ -68,3 +68,10 @@ GIT steps to set up and Commands:
 
 19.To directly push on github from other branch:
    git push origin <branch_name>
+
+20.Forking:
+   to copy repo from other git hub to self
+
+21.gitignore:
+   To restrict some files from pushing to github
+   make file .gitignore and name all the files in it which needs to be ignored
