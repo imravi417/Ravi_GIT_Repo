@@ -46,5 +46,12 @@ GIT steps to set up and Commands:
    git reset --soft HEAD^ (uncommit but keep the changes)
    git reset --hard HEAD^ (uncommit and discard the changes)
 
-14. Setup github:
-    run three commands in local git from github 
+14.Setup github(to link local repo with remote repo):
+   run three commands in local git from github
+   git remote -v(to check weather connected or not)
+
+15.To push the commited changes to github:
+   git push
+
+16.To pull changes from github to local:
+   git push
